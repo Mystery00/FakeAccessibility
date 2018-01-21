@@ -28,3 +28,14 @@ repositories {
 dependencies {
     provided 'de.robv.android.xposed:api:82'
 }
+dependencies {
+    implementation 'com.android.support:appcompat-v7:26.+'
+    implementation 'com.android.support.constraint:constraint-layout:+'
+}
+
+apply plugin: 'kotlin-android'
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation 'com.android.support.constraint:constraint-layout:+'
+}
+apply plugin: 'kotlin-android-extensions'
