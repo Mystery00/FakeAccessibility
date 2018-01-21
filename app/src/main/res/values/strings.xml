@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fake Accessibility</string>
+    <string name="desc">This plugin allows you to still see Snackbar animations when you enabled Accessibility service.</string>
+</resources>
